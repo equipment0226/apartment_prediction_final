@@ -1,6 +1,9 @@
-# === Git LFS tracked patterns (large CSV data kept in repo) ===
-# Note: *.pkl, *.cbm, *.xlsx and meta2/ meta_ml/ are git-ignored (regenerable) and not stored.
+# === Git LFS tracked patterns (large data & model artifacts) ===
+*.pkl  filter=lfs diff=lfs merge=lfs -text
+*.cbm  filter=lfs diff=lfs merge=lfs -text
 *.csv  filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
 
 # Notebooks: keep as text (better diffs), do not normalize line endings
 *.ipynb -text
+

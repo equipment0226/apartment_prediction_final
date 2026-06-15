@@ -22,13 +22,3 @@ desktop.ini
 *.tmp
 *.log
 
-# === Regenerable ML caches / model artifacts (rebuilt by the pipeline) ===
-*.pkl
-*.cbm
-
-# === Regenerable intermediate crawl files ===
-*.xlsx
-
-# === Regenerable large ML datasets (rebuilt by meta2/build_ml_dataset.py & meta_ml) ===
-/meta2/
-/meta_ml/
