@@ -22,3 +22,7 @@ desktop.ini
 *.tmp
 *.log
 
+# === Secrets / env (DB 자격증명) ===
+.env
+db/.env
+
